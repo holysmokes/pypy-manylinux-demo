@@ -17,7 +17,7 @@ matrix:
     - sudo: required
       services:
         - docker
-      env: DOCKER_IMAGE=quay.io/pypa/manylinux2010_x86_64
+      env: DOCKER_IMAGE=pypywheels/manylinux2010-pypy_x86_64
            PLAT=manylinux2010_x86_64
 
 install:
